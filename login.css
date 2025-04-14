@@ -1,0 +1,41 @@
+    body {
+        background-image: url('http://localhost/my_website/Photos/Friendship.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        max-height: 100vh;
+        min-height: 100vh;
+        margin: 0;
+        filter: brightness(90%);
+        
+
+    }
+        html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .form-container {
+                max-width: 400px;
+                margin: 50px auto;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                background-color: white;
+            }
+
+    .jumbotron {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .jumbotron img {
+        width: 50px;
+        height: auto;
+    }
